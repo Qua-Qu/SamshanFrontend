@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { getListHistoryUser } from "../../services/API/historyApi";
 import io from "socket.io-client";
-const socket = io("https://samshan-frontend.vercel.app");
+const socket = io("https://samshan-frontend.vercel.app:3000");
 
 export default function HistoryAdmin() {
   const dispatch = useDispatch();
