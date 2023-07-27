@@ -6,7 +6,7 @@ import { createMessage, getListMessage } from "../../services/API/messengerApi";
 import queryString from "query-string";
 import { getListUser } from "../../services/API/userApi";
 import moment from "moment";
-const socket = io("https://samshanbackend.railway.internal:3000");
+const socket = io("samshanbackend-production.up.railway.app:3000");
 
 export default function Chat() {
   const [load, setLoad] = useState(false);
