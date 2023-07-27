@@ -1,1 +1,1 @@
-export const DOMAIN = "https://samshanbackend.railway.internal:8000";
+export const DOMAIN = "samshanbackend-production.up.railway.app:8000";
