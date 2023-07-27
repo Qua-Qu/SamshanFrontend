@@ -5,7 +5,7 @@ import io from "socket.io-client";
 import { useDispatch, useSelector } from "react-redux";
 import queryString from "query-string";
 import moment from "moment";
-const socket = io.connect("https://samshan-frontend.vercel.app");
+const socket = io.connect("https://samshan-frontend.vercel.app:3000");
 
 export default function Chat() {
   const [activeChat, setActiveChat] = useState(false);
