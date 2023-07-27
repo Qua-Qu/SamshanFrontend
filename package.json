@@ -31,6 +31,10 @@
     "web-vitals": "^2.1.4",
     "yup": "^1.2.0"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Qua-Qu/SamshanFrontend.git"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
