@@ -1,1 +1,1 @@
-export const DOMAIN = "https://samshan-backend.vercel.app:8000";
+export const DOMAIN = "https://samshanbackend.railway.internal:8000";
