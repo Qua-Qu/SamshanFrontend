@@ -14,6 +14,9 @@ import adminRoutes from "./Routes/adminRoutes";
 import AdminLayout from "./Layouts/AdminLayout";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import io from 'socket.io-client';
+
+const socket = io.connect('https://api-samshan.hostapp.biz.id/'); // Replace with your backend URL
 
 function App() {
   return (
