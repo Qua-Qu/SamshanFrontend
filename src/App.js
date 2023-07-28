@@ -14,17 +14,6 @@ import adminRoutes from "./Routes/adminRoutes";
 import AdminLayout from "./Layouts/AdminLayout";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-// socket.js (or socketClient.js)
-
-import io from "socket.io-client";
-
-// Replace "http://backend.example.com" with the URL of your backend server
-const socket = io("https://api-samshan.hostapp.biz.id/", {
-  withCredentials: true,
-  extraHeaders: {
-    "Access-Control-Allow-Origin": "https://samshan-frontend.vercel.app", // Replace with the actual URL of your frontend server
-  },
-});
 
 function App() {
   return (
