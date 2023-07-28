@@ -1,1 +1,1 @@
-export const DOMAIN = "https://samshanbackend-production.up.railway.app";
+export const DOMAIN = "https://api-samshan.hostapp.biz.id/";
